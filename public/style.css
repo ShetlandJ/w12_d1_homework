@@ -6,3 +6,35 @@
 .red-quote{
   color: red;
 }
+
+section#cats {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-basis: 55%;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  font-family: Georgia;
+  padding: 2px;
+}
+
+ul.cat {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+img {
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 3px solid grey;
+}
+
+img:hover {
+  transition: 0.5s;
+  border: 3px solid lightgreen;
+  width: 350px;
+}
